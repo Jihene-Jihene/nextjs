@@ -1,0 +1,11 @@
+.projectList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.projectCard {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
